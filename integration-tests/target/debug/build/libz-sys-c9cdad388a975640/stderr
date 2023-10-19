@@ -1,0 +1,6 @@
+src/smoke.c:4:10: warning: cast to smaller integer type 'int' from 'uLong (*)(uLong, const Bytef *, uInt)' (aka 'unsigned long (*)(unsigned long, const unsigned char *, unsigned int)') [-Wpointer-to-int-cast]
+  return (int) adler32;
+         ^~~~~~~~~~~~~
+1 warning generated.
+error: cannot parse the debug map for '/dev/null': The file was not recognized as a valid object file
+clang: error: dsymutil command failed with exit code 1 (use -v to see invocation)

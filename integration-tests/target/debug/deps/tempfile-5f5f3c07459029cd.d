@@ -1,0 +1,12 @@
+/Users/ivanciric/Development/Near/coffee/integration-tests/target/debug/deps/tempfile-5f5f3c07459029cd.rmeta: /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/lib.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/dir.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/error.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/file/mod.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/file/imp/mod.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/spooled.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/util.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/file/imp/unix.rs
+
+/Users/ivanciric/Development/Near/coffee/integration-tests/target/debug/deps/tempfile-5f5f3c07459029cd.d: /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/lib.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/dir.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/error.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/file/mod.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/file/imp/mod.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/spooled.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/util.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/file/imp/unix.rs
+
+/Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/lib.rs:
+/Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/dir.rs:
+/Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/error.rs:
+/Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/file/mod.rs:
+/Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/file/imp/mod.rs:
+/Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/spooled.rs:
+/Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/util.rs:
+/Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/tempfile-3.8.0/src/file/imp/unix.rs:

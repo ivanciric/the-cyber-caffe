@@ -1,0 +1,11 @@
+/Users/ivanciric/Development/Near/coffee/integration-tests/target/debug/deps/signature-3b44bc0765318baf.rmeta: /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.6.4/src/lib.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.6.4/src/error.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.6.4/src/keypair.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.6.4/src/signature.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.6.4/src/signer.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.6.4/src/verifier.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.6.4/src/../README.md
+
+/Users/ivanciric/Development/Near/coffee/integration-tests/target/debug/deps/signature-3b44bc0765318baf.d: /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.6.4/src/lib.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.6.4/src/error.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.6.4/src/keypair.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.6.4/src/signature.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.6.4/src/signer.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.6.4/src/verifier.rs /Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.6.4/src/../README.md
+
+/Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.6.4/src/lib.rs:
+/Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.6.4/src/error.rs:
+/Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.6.4/src/keypair.rs:
+/Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.6.4/src/signature.rs:
+/Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.6.4/src/signer.rs:
+/Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.6.4/src/verifier.rs:
+/Users/ivanciric/.cargo/registry/src/github.com-1ecc6299db9ec823/signature-1.6.4/src/../README.md:

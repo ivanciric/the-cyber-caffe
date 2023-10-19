@@ -1,0 +1,25 @@
+[package]
+name = "the_cyber_caffe"
+version = "1.0.0"
+authors = ["Ivan Ciric <info@yoshi.tech>"]
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+near-contract-standards = "4.1.1"
+near-sdk = "4.0.0"
+percentage = "0.1.0"
+uint = { version = "0.9.3", default-features = false }
+
+[profile.release]
+codegen-units = 1
+opt-level = "z"
+lto = true
+debug = false
+panic = "abort"
+overflow-checks = true
+
+[workspace]
+members = []

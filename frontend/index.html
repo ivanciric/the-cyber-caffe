@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/favicon.ico"/>
+  <link rel="apple-touch-icon" href="assets/favicon.ico"/>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> -->
+  <title>Cyber Caffe</title>
+  <link rel="stylesheet" href="assets/global.css">
+</head>
+<body>
+
+  <div class="loader">
+  </div>
+
+  <div class="logo-loader" style="display: none;">
+      <img src="./assets/logo-white.svg" class="rotate" alt="loader"/>
+  </div>
+
+
+  <main id="signed-out-flow" style="display: none">
+    
+    <div class="logo">
+      <section>
+        <div class="hero-container">
+          <div class="environment"></div>
+          <h2 class="hero glitch layers" data-text="The Cyber Caffe"><span>The Cyber Caffe</span></h2>
+        </div>
+      </section>
+    </div>
+
+    
+    <div class="intro">
+      <h3 style="text-align: center;">
+        Welcome to my humble coffee shop, edge runner  <br/>
+      </h3>
+      <p style="text-align: center;">
+        Sign in with your wallet and get yourself a drink <br/>
+      </p>
+      <p style="text-align: center;">
+        Enjoy!
+      </p>
+    </div>
+
+      <p style="text-align: center; margin-top: 2.5em">
+        <button id="sign-in-button" class="button-49">Sign in with NEAR</button>
+      </p>
+
+  </main>
+
+
+  <div id="signed-in-flow" style="display: none">
+    <button class="button-50" style="float: right" id="sign-out-button">
+      Walk out
+    </button>
+    <main>
+
+      
+
+      <div class="logo">
+        <section>
+          <div class="hero-container">
+            <div class="environment"></div>
+            <h2 class="hero glitch layers" data-text="The Cyber Caffe"><span>The Cyber Caffe</span></h2>
+          </div>
+        </section>
+      </div>
+
+      <!-- <h1>
+        <span class="coffee" data-behavior="coffee"></span>
+      </h1> -->
+
+      <div id="populate_menu" style="display: none; text-align: center;">
+        <div class="intro">
+          <div style="text-align: center;">
+            <label for="populate_menu_button">Menu needs to be initialized by the shop owner. <br> Make sure to check back often.</label>
+            <br>
+            <button id="populate_menu_button" style="width: 50%; height: 50%; margin: auto;" class="button-49">Populate menu</button>
+          </div>
+          
+        </div>
+      </div>
+      
+
+      <div class="buy-coffee">
+
+      <div id="available_coffees"></div>
+
+      <form class="change" id="buy_coffee">
+        
+        <div>
+
+          <div class="select">
+            <select
+            class="form-select"
+            autocomplete="off"
+            id="coffee_menu"
+            data-behavior="coffee"
+          ></select>
+          <div class = "down_note"></div>
+          </div>
+
+          <button class="button-49" style="height: 66px;">
+            <span id="price_info">0.0 N</span>
+            <br>
+            Buy
+          </button>
+          
+          
+        </div>
+        <p style="float: right; font-size: 14px; background-color: #1e1e1e">*we'll serve it straight to your wallet</p>
+      </form>
+      
+    </div>
+    <br/>
+
+      <div class="intro main-text">
+        <h3 style="text-align: center;">
+          Welcome 
+          <br>
+          <span data-behavior="account-id" style="font-size: 14px;"></span>
+        </h3>
+
+        <div class="has-spent" style="display: none;">
+          <p style="text-align: center; background-color: #1e1e1e">
+            You have spent a total of 
+            <span data-behavior="total-spent" style="font-weight: bold;"></span>
+            <span style="font-weight: bold;">N</span> 
+            in this fine establishment
+          </p>
+          <p style="text-align: center; background-color: #1e1e1e"> <b>Your Rank:</b> Tech Priest</p>
+          <p style="text-align: center; background-color: #1e1e1e">Keep an eye on some exclusive perks comming soon</p>
+        </div>
+
+        <div class="not-spent" style="display: none;">
+          <p style="text-align: center;">
+            Grab a cup of digital brew
+          </p>
+        </div>
+
+
+        <p style="text-align: center; font-size: 16px;">
+          Praise the Omnisiah
+        </p>
+      </div>  
+
+
+      <div id="manage_coffee" style="display: none;">
+
+        <h3>
+          Manage your shop
+        </h3>
+
+        <div>
+
+          <p>
+            Update coffee price
+          </p>
+
+          <form id="update_coffee">
+            <div class="inline-element" style="width: 30%; float: left; padding-right: 10px;">
+              <div class="select" >
+                <select
+                class="form-select"
+              autocomplete="off"
+              id="existing_coffee_name"
+              ></select>
+              <div class = "down_note"></div>
+              </div>
+            </div>
+              <div class=" inline-element" style="width: 30%; float: left;">
+                <input type="number" step="0.01" id="updated_coffee_price" style="display: inline;">
+              </div>
+  
+                <button class="button-49"  style="width: 30%; float: right; height: 66px;">
+                  <span>Update</span>
+                </button>
+          </form>
+        </div>
+
+        <div style="float: left; width: 100%;">
+          <br>
+          <hr>
+          <p>
+            Add new coffee
+          </p>
+          <form id="add_new_coffee">
+            <div class="inline-element" style="width: 20%; float: left; padding-right: 10px;">
+              <input type="text" id="new_coffee_name" name="cname" placeholder="name" style="width: 100%; height: 66px;">
+            </div>
+
+            <div class=" inline-element" style="width: 20%; float: left; padding-right: 10px;">
+              <input type="number" step="0.01" id="new_coffee_price" name="cprice" value="2.4"  style="width: 100px; height: 66px;">
+            </div>
+            
+            <div class="inline-element" style="width: 30%; float: left; padding-right: 10px;">
+              <input type="text" id="new_coffee_img_url" name="curl" placeholder="Image url" style="width: 100%; height: 66px;">
+            </div>
+
+            <button class="button-49"  style="float: right; width: 30%; height: 66px;">
+              <span>Add</span>
+            </button>
+          </form>
+        </div>
+
+
+          <div style="float: left; width: 100%; padding-top: 25px;">
+            <hr>
+            <p>
+              NFT Settings
+            </p>
+            <div style="float: left; width: 50%; padding: 10px;">
+              <button class="button-49" id="initialize-nft-contract"  style="float: right; width: 100%; height: 66px;">
+                <span>Initialize NFT contract</span>
+              </button>
+            </div>
+    
+            <div style="float: right; width: 50%; padding: 10px;">
+              <button class="button-49" id="mint-nft"  style="float: right; width: 100%; height: 66px;">
+                <span>Mint test NFT</span>
+              </button>
+            </div>
+          </div>
+        
+
+      </div>
+      
+    </main>
+  </div>
+
+  <script src="index.js" type="module"></script>
+</body>
+
+<footer>
+    <hr>
+    <span class="joined-as" style="padding-left: 10px; float: left;">Joined as <span data-behavior="account-id"></span></span>
+
+    <span style="float: right; padding-right: 10px;">
+      <img class="footer_img" src="assets/built_on_rev.png" alt="built on near"/> 
+    </span>
+   
+</footer>
+
+</html>
