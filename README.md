@@ -1,7 +1,7 @@
-the-cyber-caffe
+The Cyber Caffe
 ===============
 
-Home of your digital brew on NEAR blockchain.
+Home of the best digital brew on NEAR blockchain.
 
 The Cyber Caffe consists of 3 components:
 - main contract (lib.rs)
@@ -46,7 +46,7 @@ Take a note of that account, as we will need it for cross-contract calls from th
 
 2. Edit the main contract (this repo, lib.rs) and enter your data:
 Set the NFT contract account id (the one you deployed in step 1)
-- pub `const NFT_CONTRACT: &str = "nft_contract.testnet";`
+- `pub const NFT_CONTRACT: &str = "nft_contract.testnet";`
 
 Set the shop owner. This is not the contract deployer. It is your special personal account you want receive payments to.
 Percentage of each sale goes to this account.
@@ -75,21 +75,35 @@ Click on the `Initialize NFT contract` button.
 9. After this, feel free to click the `Mint test NFT` button to test the actual minting.
 Check you wallet Collectibles after a few moments to see the coffee nft.
 
+10. Log out of the app, and login as some other testnet account (basically as a regular user).
+You will be greated with a coffee menu and some additional info about your total spenditure in the app and your rank.
+
+11. Choose your drink and buy it. You will receive a cyber coffee NFT with specific strength based on your rank, in your wallet shortly.
 
 
-This app was initialized with [create-near-app] 
+The Future
+==========
+- integration tests
+- elaborate ranking system
+- extra nft attributes
+- social aspect between users
+- actual frontend :)
+
+
+
+This app was initialy created with [create-near-app] cli tool.
 
 
 Links
 ===============
 
-On Windows, if you're seeing an error containing `EPERM` it may be related to spaces in your path. Please see [this issue](https://github.com/zkat/npx/issues/209) for more details.
+   
+    [The Cyber Caffe]: https://cyber.yoshi.tech
 
-
-  [create-near-app]: https://github.com/near/create-near-app
-  [Node.js]: https://nodejs.org/en/download/package-manager/
-  [jest]: https://jestjs.io/
-  [NEAR accounts]: https://docs.near.org/concepts/basics/account
-  [NEAR Wallet]: https://wallet.testnet.near.org/
-  [near-cli]: https://github.com/near/near-cli
-  [gh-pages]: https://github.com/tschaub/gh-pages
+    [create-near-app]: https://github.com/near/create-near-app
+    [Node.js]: https://nodejs.org/en/download/package-manager/
+    [jest]: https://jestjs.io/
+    [NEAR accounts]: https://docs.near.org/concepts/basics/account
+    [NEAR Wallet]: https://wallet.testnet.near.org/
+    [near-cli]: https://github.com/near/near-cli
+    [gh-pages]: https://github.com/tschaub/gh-pages
