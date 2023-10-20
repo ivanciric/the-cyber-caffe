@@ -38,6 +38,17 @@ Their NFT collection continued to grow, and with each one acquired, the possibil
 
 As the night deepened, they shared stories, dreams, and theories about the future. They were determined to uncover the true potential of their NFTs, convinced that these tokens held the key to something bigger than they could imagine. In the neon-lit heart of NeoTokyo, the future was uncertain, but with their ingenuity, curiosity, and a cup of Digital Brew in hand, they were ready to face it head-on.
 
+The Screens
+===========
+
+![Home](screenshots/scr1.png)
+
+![Management](screenshots/scr2.png)
+
+![Buying](screenshots/scr3.png)
+
+![Wallet](screenshots/scr4.png)
+
 
 The Setup
 =========
